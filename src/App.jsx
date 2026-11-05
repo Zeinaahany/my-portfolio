@@ -197,7 +197,12 @@ function App() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:zeina.hany.dev@gmail.com" className="contact-link">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=zeina.hany.dev@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link"
+          >
             Email Me ↗
           </a>
 
