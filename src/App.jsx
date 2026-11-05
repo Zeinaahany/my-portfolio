@@ -78,6 +78,52 @@ function App() {
         </div>
       </section>
 
+            {/* About Section */}
+      <section className="about-section" id="about">
+        <p className="welcome">GET TO KNOW ME</p>
+
+        <h2 className="section-title">
+          About <span>Me</span>
+        </h2>
+
+        <p className="about-description">
+          I'm Zeina Hany, a Computer Science student at Fayoum University
+          with a passion for Front-End Development.
+          I enjoy building responsive and user-friendly websites
+          using modern web technologies.
+          I'm continuously learning and improving my skills
+          by working on personal and academic projects.
+        </p>
+      </section>
+      
+            {/* Skills Section */}
+      <section className="skills-section" id="skills">
+        <p className="welcome">WHAT I WORK WITH</p>
+
+        <h2 className="section-title">
+          My <span>Skills</span>
+        </h2>
+
+        <p className="section-subtitle">
+          Technologies and tools I use to build web applications.
+        </p>
+
+        <div className="skills-grid">
+          <div className="skill-card">HTML5</div>
+          <div className="skill-card">CSS3</div>
+          <div className="skill-card">JavaScript</div>
+          <div className="skill-card">TypeScript</div>
+          <div className="skill-card">React.js</div>
+          <div className="skill-card">Tailwind CSS</div>
+          <div className="skill-card">Bootstrap</div>
+          <div className="skill-card">C++</div>
+          <div className="skill-card">Python</div>
+          <div className="skill-card">Git & GitHub</div>
+          <div className="skill-card">OOP</div>
+          <div className="skill-card">Data Structures</div>
+        </div>
+      </section>
+      
       {/* Projects Section */}
       <section className="projects-section" id="projects">
         <p className="welcome">MY RECENT WORK</p>
